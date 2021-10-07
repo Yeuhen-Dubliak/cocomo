@@ -1,0 +1,32 @@
+body {
+  background-color: rgb(201, 231, 149);
+}
+
+.container {
+  width: 800px;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.first_form {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#btn {
+  font-size: 18px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: blueviolet;
+  color: white;
+}
+
+.second_form {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+#input {
+  resize: none;
+}

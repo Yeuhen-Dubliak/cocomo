@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="first_form">
+        <div>Тип проекту</div>
+        <select id="type" onchange="changeArr()">
+          <option value="1"></option>
+          <option id="organic">Organic</option>
+          <option id="semidetach">Semidetach</option>
+          <option id="embedded">Embedded</option>
+        </select>
+        <div>Кількість рядків коду</div>
+        <textarea id="input" rows="1"></textarea>
+        <br />
+        <button id="btn">Обрахувати</button>
+      </div>
+      <div class="second_form">
+        <div>
+          <div>Трудоємкість: <output id="PM"></output></div>
+        </div>
+        <div>
+          <div>Тривалість: <output id="TM"></output></div>
+        </div>
+        <div>
+          <div>Кількість розробників: <output id="SS"></output></div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
